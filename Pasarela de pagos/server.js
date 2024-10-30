@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const stripe = require("stripe")("sk_test_51Q2e84JNhcOyjHY7KEi3JTaii7r8foyQT4rwPZAAd80GUqIjmhb1ytjYKGKJxM4vwfoGhgcWpRLkUnmoz7G74tIY00FaBjhkaw");
+const stripe = require("stripe")("clavePrivadaNoSePuedeCompartir: Clave reservada en repositorio Claves");
 
 app.use(express.static("."));
 app.use(express.json());
