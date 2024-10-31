@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+//Aqui va la clave privada, se encuentra en repositorio claves
 const stripe = require("stripe")("clavePrivadaNoSePuedeCompartir: Clave reservada en repositorio Claves");
 
 app.use(express.static("."));
