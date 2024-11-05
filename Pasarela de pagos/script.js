@@ -1,4 +1,4 @@
-// Inicializa Stripe con clave pública
+// Inicializar Stripe con clave pública
 const stripe = Stripe("pk_test_51Q2e84JNhcOyjHY7nV7hDdsfH9fYnKROBRZljZStMNxWVQAIAtQUzo2iinfLy4siT546wkTArfmOenwUCnnup8ZZ00bVbRr0Uc");
 
 // Manejador para el botón de pago
